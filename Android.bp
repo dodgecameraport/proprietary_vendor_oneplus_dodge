@@ -11842,7 +11842,6 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libAlgoProcess.so",
             ],
             shared_libs: [
-                "libapsfixup",
                 "android.hardware.graphics.mapper@4.0",
                 "android.hardware.graphics.common-V7-ndk",
                 "android.hardware.graphics.allocator-V2-ndk",
@@ -15084,31 +15083,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/odm/lib64/vendor.dolby.dvs-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.camera.aon-V1-ndk_platform",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/vendor.oplus.hardware.camera.aon-V1-ndk_platform.so",
             ],
             shared_libs: [
                 "libbinder_ndk",

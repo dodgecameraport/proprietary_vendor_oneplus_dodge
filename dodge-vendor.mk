@@ -1602,11 +1602,8 @@ PRODUCT_PACKAGES += \
     libwrapper_te \
     libyuvwrapper \
     libzlib \
-<<<<<<< HEAD
-=======
     vendor.dolby.dvs-V1-ndk \
     vendor.oplus.hardware.camera.aon-V1-ndk_platform \
->>>>>>> 76025ae (dodge: Add Dolby Vision Codec)
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
