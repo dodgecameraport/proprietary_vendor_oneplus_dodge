@@ -1619,4 +1619,4 @@ PRODUCT_PACKAGES += \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
-    vendor.oplus.hardware.cammidasservice-V1-service \
+    vendor.oplus.hardware.cammidasservice-V1-service
